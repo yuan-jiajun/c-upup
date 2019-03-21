@@ -11,5 +11,6 @@ struct test
 struct test *txt_demo = (struct test *)p;
 printf("version=%d",txt_demo->version);
 printf("hdr_len=%d\n",txt_demo->hdr_len);
+printf("+++++\n");
 return 0;
 }
