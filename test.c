@@ -3,7 +3,7 @@
 
 int main()
 {
-   char str[30] = "2030300 This is test";
+   char str[30] = "0x00ff";
    char *ptr;
    long ret;
 
