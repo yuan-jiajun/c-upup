@@ -10,7 +10,16 @@ struct TCP_HEADER {
 
 int main()
 {
-    struct TCP_HEADER tcp_header = 214;
+    struct TCP_HEADER tcp_header;
+    tcp_header.fin = 1;
+    tcp_header.syn = 1;
+    tcp_header.rst = 0;
+    tcp_header.psh = 1;
+    tcp_header.ack = 0;
+    tcp_header.urg = 1;
+    tcp_header.ecn_echo = 1;
+    tcp_header.cwr = 0;
+
     unsigned int flags =((unsigned int)tcp_header.cwr<<7) + ((unsigned int)tcp_header.ecn_echo<<6) + ((unsigned int)tcp_header.urg<<5) +
                    ((unsigned int)tcp_header.ack<<4) + ((unsigned int)tcp_header.psh<<3) + ((unsigned int)tcp_header.rst<<2) +
                    ((unsigned int)tcp_header.syn<<1) + ((unsigned int)tcp_header.fin);
