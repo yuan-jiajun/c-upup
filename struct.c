@@ -2,6 +2,8 @@
 // Created by yuanjiajun on 2019/4/30.
 //
 
+# include <stdio.h>
+
 struct TCP_HEADER {
     unsigned int fin:1, syn:1, rst:1, psh:1, ack:1, urg:1, ecn_echo:1, cwr:1;
 };
