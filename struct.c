@@ -12,9 +12,9 @@ int main()
 
     struct TCP_HEADER tcp_header = 214;
 
-    unsigned int flags =((uint8_t)tcp_header.cwr<<7) + ((uint8_t)tcp_header.ecn_echo<<6) + ((uint8_t)tcp_header.urg<<5) +
-                   ((uint8_t)tcp_header.ack<<4) + ((uint8_t)tcp_header.psh<<3) + ((uint8_t)tcp_header.rst<<2) +
-                   ((uint8_t)tcp_header.syn<<1) + ((uint8_t)tcp_header.fin);
+    unsigned int flags =((unsigned int)tcp_header.cwr<<7) + ((unsigned int)tcp_header.ecn_echo<<6) + ((unsigned int)tcp_header.urg<<5) +
+                   ((unsigned int)tcp_header.ack<<4) + ((unsigned int)tcp_header.psh<<3) + ((unsigned int)tcp_header.rst<<2) +
+                   ((unsigned int)tcp_header.syn<<1) + ((unsigned int)tcp_header.fin);
 
     printf("flags = %d",flags);
     return(0);
