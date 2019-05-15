@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/c_test.dir/src/develop.c.o CMakeFiles/c_test.dir/src/length.c.o CMakeFiles/c_test.dir/src/struct.c.o CMakeFiles/c_test.dir/src/test.c.o CMakeFiles/c_test.dir/src/vcs.c.o  -o c_test.exe -Wl,--out-implib,libc_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
