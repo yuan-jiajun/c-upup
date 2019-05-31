@@ -1,0 +1,905 @@
+Xshell 6 (Build 0115)
+Copyright (c) 2002 NetSarang Computer, Inc. All rights reserved.
+
+Type `help' to learn how to use Xshell prompt.
+[C:\~]$ 
+
+Connecting to 202.115.44.159:22222...
+Connection established.
+To escape to local shell, press 'Ctrl+Alt+]'.
+
+Last login: Thu May 30 21:03:02 2019 from 223.129.0.215
+[root@one ~]# 
+[root@one ~]# 
+[root@one ~]# ssh 10.0.3.22
+root@10.0.3.22's password: 
+Last login: Thu May 30 21:03:21 2019 from 10.0.0.100
+[root@bigdata-22 ~]# cd /home/yjj
+[root@bigdata-22 yjj]# ll
+total 44
+drwxr-xr-x.  2 root root 4096 Apr  3 20:53 c_demo
+drwxr-xr-x. 15 root root 4096 Apr 24 17:58 dpdk-master-test
+drwxr-xr-x. 15 root root 4096 Apr 26 19:08 dpdk-stable-17.05.1
+-rwxr-xr-x.  1 root root  193 May 29 14:54 git.sh
+drwxr-xr-x.  7 root root 4096 Apr 12 11:48 ntcicap-chain
+drwxr-xr-x.  4 root root 4096 Apr 12 11:22 ntcicap_filter
+drwxr-xr-x.  7 root root 4096 Apr  3 14:41 ntcicap-flow-yjj
+drwxr-xr-x.  7 root root 4096 Apr 11 15:46 ntcicap-v1
+drwxr-xr-x.  7 root root 4096 May 30 14:55 ntciflow_c
+drwxr-xr-x.  2 root root 4096 Mar 28 14:37 pcap
+drwxr-xr-x.  2 root root 4096 May 30 14:15 shell
+[root@bigdata-22 yjj]# rz -E
+rz waiting to receive. 
+
+rz: ntciflow_c-pooling2.1.zip removed.                                                                                                                                                                                                                              [root@bigdata-22 yjj]# ll
+total 44
+drwxr-xr-x.  2 root root 4096 Apr  3 20:53 c_demo
+drwxr-xr-x. 15 root root 4096 Apr 24 17:58 dpdk-master-test
+drwxr-xr-x. 15 root root 4096 Apr 26 19:08 dpdk-stable-17.05.1
+-rwxr-xr-x.  1 root root  193 May 29 14:54 git.sh
+drwxr-xr-x.  7 root root 4096 Apr 12 11:48 ntcicap-chain
+drwxr-xr-x.  4 root root 4096 Apr 12 11:22 ntcicap_filter
+drwxr-xr-x.  7 root root 4096 Apr  3 14:41 ntcicap-flow-yjj
+drwxr-xr-x.  7 root root 4096 Apr 11 15:46 ntcicap-v1
+drwxr-xr-x.  7 root root 4096 May 30 14:55 ntciflow_c
+drwxr-xr-x.  2 root root 4096 Mar 28 14:37 pcap
+drwxr-xr-x.  2 root root 4096 May 30 14:15 shell
+[root@bigdata-22 yjj]# ll
+total 44
+drwxr-xr-x.  2 root root 4096 Apr  3 20:53 c_demo
+drwxr-xr-x. 15 root root 4096 Apr 24 17:58 dpdk-master-test
+drwxr-xr-x. 15 root root 4096 Apr 26 19:08 dpdk-stable-17.05.1
+-rwxr-xr-x.  1 root root  193 May 29 14:54 git.sh
+drwxr-xr-x.  7 root root 4096 Apr 12 11:48 ntcicap-chain
+drwxr-xr-x.  4 root root 4096 Apr 12 11:22 ntcicap_filter
+drwxr-xr-x.  7 root root 4096 Apr  3 14:41 ntcicap-flow-yjj
+drwxr-xr-x.  7 root root 4096 Apr 11 15:46 ntcicap-v1
+drwxr-xr-x.  7 root root 4096 May 30 14:55 ntciflow_c
+drwxr-xr-x.  2 root root 4096 Mar 28 14:37 pcap
+drwxr-xr-x.  2 root root 4096 May 30 14:15 shell
+[root@bigdata-22 yjj]# ll
+total 44
+drwxr-xr-x.  2 root root 4096 Apr  3 20:53 c_demo
+drwxr-xr-x. 15 root root 4096 Apr 24 17:58 dpdk-master-test
+drwxr-xr-x. 15 root root 4096 Apr 26 19:08 dpdk-stable-17.05.1
+-rwxr-xr-x.  1 root root  193 May 29 14:54 git.sh
+drwxr-xr-x.  7 root root 4096 Apr 12 11:48 ntcicap-chain
+drwxr-xr-x.  4 root root 4096 Apr 12 11:22 ntcicap_filter
+drwxr-xr-x.  7 root root 4096 Apr  3 14:41 ntcicap-flow-yjj
+drwxr-xr-x.  7 root root 4096 Apr 11 15:46 ntcicap-v1
+drwxr-xr-x.  7 root root 4096 May 30 14:55 ntciflow_c
+drwxr-xr-x.  2 root root 4096 Mar 28 14:37 pcap
+drwxr-xr-x.  2 root root 4096 May 30 14:15 shell
+[root@bigdata-22 yjj]# rz -E
+rz waiting to receive. 
+rz: ntciflow_c-pooling2.1.zip removed.
+[root@bigdata-22 yjj]# ll
+total 44
+drwxr-xr-x.  2 root root 4096 Apr  3 20:53 c_demo
+drwxr-xr-x. 15 root root 4096 Apr 24 17:58 dpdk-master-test
+drwxr-xr-x. 15 root root 4096 Apr 26 19:08 dpdk-stable-17.05.1
+-rwxr-xr-x.  1 root root  193 May 29 14:54 git.sh
+drwxr-xr-x.  7 root root 4096 Apr 12 11:48 ntcicap-chain
+drwxr-xr-x.  4 root root 4096 Apr 12 11:22 ntcicap_filter
+drwxr-xr-x.  7 root root 4096 Apr  3 14:41 ntcicap-flow-yjj
+drwxr-xr-x.  7 root root 4096 Apr 11 15:46 ntcicap-v1
+drwxr-xr-x.  7 root root 4096 May 30 14:55 ntciflow_c
+drwxr-xr-x.  2 root root 4096 Mar 28 14:37 pcap
+drwxr-xr-x.  2 root root 4096 May 30 14:15 shell
+[root@bigdata-22 yjj]# Connection to 10.0.3.22 closed by remote host.
+Connection to 10.0.3.22 closed.
+[root@one ~]# ssh 10.0.3.22
+root@10.0.3.22's password: 
+Last login: Thu May 30 21:35:54 2019 from 10.0.0.1
+ABRT has detected 6 problem(s). For more info run: abrt-cli list --since 1559223354
+[root@bigdata-22 ~]# 
+[root@bigdata-22 ~]# 
+[root@bigdata-22 ~]# top
+top - 21:43:38 up 12 min,  3 users,  load average: 3.36, 1.86, 1.29
+Tasks: 699 total,   2 running, 697 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6.4 us,  1.0 sy,  0.0 ni, 78.6 id, 14.1 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 13181206+total, 78396752 free, 36145472 used, 17269840 buff/cache
+KiB Swap:  4193276 total,  4193276 free,        0 used. 95067456 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                                                                                                                                 
+  6082 root      20   0 33.442g 390900   2704 R 515.8  0.3   4:31.52 ntcicap                                                                                                                                                                                                 
+  6754 root      20   0  148792   2604   1396 R  10.5  0.0   0:00.06 top                                                                                                                                                                                                     
+   258 root      20   0       0      0      0 S   5.3  0.0   0:00.08 rcuos/7                                                                                                                                                                                                 
+  1818 root      20   0  878816  42824  16144 S   5.3  0.0   0:02.43 dockerd                                                                                                                                                                                                 
+     1 root      20   0  126224   6912   3956 S   0.0  0.0   0:02.73 systemd                                                                                                                                                                                                 
+     2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd                                                                                                                                                                                                
+     3 root      20   0       0      0      0 S   0.0  0.0   0:00.00 ksoftirqd/0                                                                                                                                                                                             
+     5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H                                                                                                                                                                                            
+     6 root      20   0       0      0      0 S   0.0  0.0   0:00.11 kworker/u480:0                                                                                                                                                                                          
+     8 root      rt   0       0      0      0 S   0.0  0.0   0:00.01 migration/0                                                                                                                                                                                             
+     9 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh                                                                                                                                                                                                  
+    10 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/0                                                                                                                                                                                                 
+    11 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/1                                                                                                                                                                                                 
+    12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/2                                                                                                                                                                                                 
+    13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/3                                                                                                                                                                                                 
+    14 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/4                                                                                                                                                                                                 
+    15 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/5                                                                                                                                                                                                 
+    16 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/6                                                                                                                                                                                                 
+    17 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/7                                                                                                                                                                                                 
+    18 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/8                                                                                                                                                                                                 
+    19 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/9                                                                                                                                                                                                 
+    20 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/10                                                                                                                                                                                                
+    21 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/11                                                                                                                                                                                                
+    22 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/12                                                                                                                                                                                                
+    23 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/13                                                                                                                                                                                                
+    24 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/14                                                                                                                                                                                                
+    25 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/15                                                                                                                                                                                                
+    26 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/16                                                                                                                                                                                                
+    27 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/17                                                                                                                                                                                                
+    28 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/18                                                                                                                                                                                                
+    29 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/19                                                                                                                                                                                                
+    30 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/20                                                                                                                                                                                                
+    31 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/21                                                                                                                                                                                                
+    32 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/22                                                                                                                                                                                                
+    33 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/23                                                                                                                                                                                                
+    34 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/24                                                                                                                                                                                                
+    35 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/25                                                                                                                                                                                                
+    36 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/26                                                                                                                                                                                                
+    37 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/27                                                                                                                                                                                                
+    38 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/28                                                                                                                                                                                                
+    39 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/29                                                                                                                                                                                                
+    40 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/30                                                                                                                                                                                                
+    41 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/31                                                                                                                                                                                                
+    42 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/32                                                                                                                                                                                                
+    43 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/33                                                                                                                                                                                                
+    44 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/34                                                                                                                                                                                                
+    45 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/35                                                                                                                                                                                                
+    46 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/36                                                                                                                                                                                                
+    47 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/37                                                                                                                                                                                                
+    48 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/38                                                                                                                                                                                                
+    49 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/39                                                                                                                                                                                                
+    50 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/40                                                                                                                                                                                                
+    51 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/41                                                                                                                                                                                                
+    52 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcuob/42                                                                                                                                                                                                
+[root@bigdata-22 ~]# dstat
+You did not select any stats, using -cdngy by default.
+----total-cpu-usage---- -dsk/total- -net/total- ---paging-- ---system--
+usr sys idl wai hiq siq| read  writ| recv  send|  in   out | int   csw 
+  7   1  78  14   0   0|  11M   10M|   0     0 |   0     0 |1507  2219 
+ 75   0  25   0   0   0|   0     0 | 812B 1112B|   0     0 |7137    10k
+ 74   0  25   0   0   0|   0     0 |4255k 1763k|   0     0 |9437    11k
+ 75   0  25   0   0   0|   0     0 |6371k 2839k|   0     0 |  10k   11k
+ 74   0  25   0   0   0|   0     0 |9942k 4903k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    40k|7147k 3486k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |8739k 4267k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |  11M 5539k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4918k|   0     0 |  11k   12k
+ 74   0  25   0   0   1|   0     0 |9896k 4903k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |7161k 3493k|   0     0 |9879    12k
+ 74   0  25   0   0   0|   0    20k|  10M 4899k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4917k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4903k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9919k 4896k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4885k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    28k|7278k 3563k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0     0 |  11M 5534k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4894k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9901k 4899k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9982k 4885k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    12k|7315k 3553k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0     0 |9980k 4880k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0  1888k|  10M 4886k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9918k 4899k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |7235k 3532k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0    60k|9999k 4884k|   0     0 |  12k   12k
+ 74   1  25   0   0   0|   0     0 |9975k 4882k|   0     0 |  12k   12k
+ 74   0  25   0   0   1|   0    24k|  10M 4907k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |9938k 4915k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4917k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0    12k|7166k 3501k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0     0 |  10M 4892k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |  10M 4901k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9944k 4910k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9826k 4800k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0    12k|  11M 5653k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |7162k 3502k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4899k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4915k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |9065k  203k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    16k|9960k 4903k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4912k|   0     0 |  11k   12k
+ 74   0  25   0   0   1|   0     0 |  11M 4939k|   0     0 |  12k   12k
+ 74   1  25   0   0   0|   0     0 |7570k 5479k|   0     0 |  10k   12k
+ 74   1  25   0   0   0|   0     0 |9741k 3560k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    16k|  10M 4893k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |  10M 4908k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9985k 4899k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |  11M 4960k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |  10M 5526k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    12k|7443k 4861k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0     0 |9715k 3556k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0  4652k|  10M 4883k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9948k 4915k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9989k 4904k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    36k|7421k 4856k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0     0 |9767k 3559k|   0     0 |  12k   13k
+ 74   0  25   0   0   1|   0     0 |  11M 4923k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |  10M 5464k|   0     0 |  11k   12k
+----total-cpu-usage---- -dsk/total- -net/total- ---paging-- ---system--
+usr sys idl wai hiq siq| read  writ| recv  send|  in   out | int   csw 
+ 74   0  25   0   0   0|   0     0 |  10M 4883k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0    16k|9970k 5009k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |7465k 4853k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |9699k 3571k|   0     0 |  12k   12k
+ 74   1  25   0   0   0|   0     0 |  10M 4871k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4929k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    16k|  11M 4932k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |  10M 5528k|   0     0 |  12k   12k
+ 74   1  25   0   0   0|   0     0 |6257k 4800k|   0     0 |  10k   12k
+ 74   1  25   0   0   0|   0     0 |9604k 2937k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |  10M 4898k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    12k|7359k 4850k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9740k 3562k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9966k 4890k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |6003k 4798k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0     0 |9662k 2888k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    32k|  10M 4919k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |9950k 4903k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |7425k 4856k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0     0 |9694k 3560k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9851k 4872k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    16k|6250k 4792k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0     0 |9617k 2959k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0   844k|  10M 4894k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |9492k 4914k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |7740k 4740k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0    60k|9795k 3635k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9953k 4912k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |7309k 4795k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |9664k 3539k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |8909k 4811k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    16k|7249k 4289k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0     0 |9784k 3550k|   0     0 |  11k   12k
+ 75   0  25   0   0   0|   0     0 |9949k 4887k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |6128k 4692k|   0     0 |9852    12k
+ 74   0  25   0   0   0|   0     0 |9642k 3057k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0    16k|  10M 4889k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9922k 4912k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |7436k 4840k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0     0 |9758k 3554k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9956k 4909k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    12k|9980k 4866k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |7415k 4873k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9647k 3546k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4851k|   0     0 |  12k   12k
+ 74   1  25   0   0   0|   0     0 |9973k 4947k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    16k|7433k 4841k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9669k 3833k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |8702k 4567k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |7263k 4258k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9688k 3536k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    16k|9916k 4872k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |7471k 4845k|   0     0 |  11k   12k
+ 74   0  25   1   0   0|   0  3216k|9693k 3588k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9965k 4854k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |8740k 4884k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    52k|7238k 4236k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9718k 3533k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9959k 4890k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |7441k 4858k|   0     0 |  10k   12k
+----total-cpu-usage---- -dsk/total- -net/total- ---paging-- ---system--
+usr sys idl wai hiq siq| read  writ| recv  send|  in   out | int   csw 
+ 74   0  25   0   0   0|   0     0 |9695k 3568k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    16k|  10M 4869k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9959k 4912k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |7370k 4857k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9729k 3527k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |  10M 4884k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    20k|8769k 4885k|   0     0 |  11k   13k
+ 74   1  25   0   0   0|   0     0 |7280k 4255k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0     0 |9772k 3528k|   0     0 |  12k   12k
+ 74   0  25   0   0   1|   0     0 |9972k 4921k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9978k 4885k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0    16k|7370k 4867k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0     0 |9762k 3528k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9979k 4888k|   0     0 |  12k   12k
+ 74   1  25   0   0   0|   0     0 |9993k 4850k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |7447k 4913k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0    24k|9694k 3572k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9978k 5490k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9953k 4274k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |7378k 4818k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0     0 |9715k 3602k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    16k|  10M 4891k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |9952k 4895k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0  1316k|7410k 4768k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9746k 3652k|   0     0 |  12k   12k
+ 74   2  22   2   0   0| 316k    0 |8857k 4931k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0    48k|9840k 4227k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |7344k 4662k|   0     0 |  10k   11k
+ 74   0  25   0   0   0|   0     0 |9782k 3792k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9921k 4817k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0    16k|  10M 4903k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    12k|7375k 4644k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0     0 |9787k 4514k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9817k 4126k|   0     0 |  12k   13k
+ 74   1  25   0   0   0|   0     0 |8210k 4637k|   0     0 |  12k   14k
+ 74   0  25   0   0   0|   0     0 |9072k 4178k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    12k|9901k 4688k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9843k 4609k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |6128k 3970k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0     0 |9780k 4063k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9946k 4681k|   0     0 |  12k   12k
+ 74   1  25   0   0   0|   0     0 |  10M 4919k|   0     0 |  12k   12k
+ 74   1  25   0   0   0|   0    20k|7250k 4491k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |9877k 4133k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9891k 4650k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |7398k 4475k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9734k 3938k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    12k|  10M 5176k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9895k 4594k|   0     0 |  12k   12k
+ 74   1  25   0   0   0|   0     0 |7411k 4450k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9762k 3938k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 5163k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    12k|8753k 4623k|   0     0 |  11k   12k
+ 74   0  25   1   0   0|   0  3280k|7180k 3751k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9815k 4891k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9848k 4018k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |7313k 4353k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    40k|8597k 4211k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0  4096B|9891k 4070k|   0     0 |  12k   12k
+ 74   1  25   0   0   0|   0     0 |7329k 4299k|   0     0 |  11k   12k
+----total-cpu-usage---- -dsk/total- -net/total- ---paging-- ---system--
+usr sys idl wai hiq siq| read  writ| recv  send|  in   out | int   csw 
+ 74   1  25   0   0   0|   0     0 |9797k 4896k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |9858k 4095k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    24k|7333k 4287k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9879k 4124k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |8755k 4973k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9894k 4174k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |7234k 4194k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    12k|9784k 4892k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9947k 4127k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |7275k 4238k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9843k 4814k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |9167k 4256k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    12k|9499k 4534k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |7204k 3868k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0     0 |9891k 4893k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9852k 4294k|   0     0 |  11k   12k
+ 74   1  25   0   0   0|   0     0 |7201k 4074k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0    24k|9891k 4893k|   0     0 |  11k   12k
+ 75   1  25   0   0   0|   0     0 |9917k 4275k|   0     0 |  12k   12k
+ 75   0  25   0   0   0|   0     0 |5945k 3411k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0     0 |9762k 4892k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |9900k 4336k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |5965k 3351k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0   608k|9927k 4894k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0    52k|9838k 4465k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |7201k 3901k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9881k 4891k|   0     0 |  12k   12k
+ 75   0  25   0   0   0|   0     0 |8708k 4207k|   0     0 |  10k   11k
+ 74   0  25   0   0   0|   0     0 |7139k 3476k|   0     0 |  10k   12k
+ 74   0  25   0   0   0|   0    12k|9751k 4889k|   0     0 |  12k   13k
+ 74   0  25   0   0   0|   0     0 |9930k 4421k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |7038k 3941k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4894k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |9924k 4449k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0    12k|8547k 3296k|   0     0 |  11k   12k
+ 74   0  25   0   0   0|   0     0 |7241k 4835k|   0     0 |  11k   13k
+ 74   0  25   0   0   0|   0     0 |9984k 4528k|   0     0 |  12k   12k
+ 74   0  25   0   0   0|   0     0 |  10M 4903k|   0     0 |  11k   12k^C
+[root@bigdata-22 ~]# cd /home/yjj/
+[root@bigdata-22 yjj]# docker cp ntcidpdk-v1:/home/ntcidpdk/ConfigAndStart.sh ./
+[root@bigdata-22 yjj]# ll
+total 5968
+drwxr-xr-x.  2 root root    4096 Apr  3 20:53 c_demo
+-rwxrwxrwx.  1 root root    4913 May 30 21:51 ConfigAndStart.sh
+drwxr-xr-x.  2 root root    4096 May 30 21:54 docker
+drwxr-xr-x. 15 root root    4096 Apr 24 17:58 dpdk-master-test
+drwxr-xr-x. 15 root root    4096 Apr 26 19:08 dpdk-stable-17.05.1
+-rwxr-xr-x.  1 root root     193 May 29 14:54 git.sh
+drwxr-xr-x.  7 root root    4096 Apr 12 11:48 ntcicap-chain
+drwxr-xr-x.  4 root root    4096 Apr 12 11:22 ntcicap_filter
+drwxr-xr-x.  7 root root    4096 Apr  3 14:41 ntcicap-flow-yjj
+drwxr-xr-x.  7 root root    4096 Apr 11 15:46 ntcicap-v1
+drwxr-xr-x.  8 root root    4096 May 30 21:32 ntciflow_c
+-rw-r--r--.  1 root root 2941533 May 30 21:13 ntciflow_c-pooling2.1.tar.gz
+-rw-r--r--.  1 root root 3107032 May 30 15:05 ntciflow_c-pooling2.1.zip
+drwxr-xr-x.  2 root root    4096 Mar 28 14:37 pcap
+drwxr-xr-x.  2 root root    4096 May 30 14:15 shell
+[root@bigdata-22 yjj]# cd docker/
+[root@bigdata-22 docker]# ll
+total 0
+[root@bigdata-22 docker]# ll
+total 0
+[root@bigdata-22 docker]# rz -E
+rz waiting to receive.
+[root@bigdata-22 docker]# ll
+total 28
+-rw-r--r--. 1 root root 16661 Jun 28  2018 docker-compose.yaml
+-rw-r--r--. 1 root root   558 Aug 22  2018 Dockerfile
+-rw-r--r--. 1 root root    22 Aug 22  2018 entrypoint.sh
+[root@bigdata-22 docker]# rm -rf docker-compose.yaml 
+[root@bigdata-22 docker]# cp ../ConfigAndStart.sh ./
+[root@bigdata-22 docker]# ll
+total 16
+-rwxr-xr-x. 1 root root 4913 May 30 21:59 ConfigAndStart.sh
+-rw-r--r--. 1 root root  558 Aug 22  2018 Dockerfile
+-rw-r--r--. 1 root root   22 Aug 22  2018 entrypoint.sh
+[root@bigdata-22 docker]# vim Dockerfile 
+[root@bigdata-22 docker]# vim Dockerfile 
+[root@bigdata-22 docker]# vim Dockerfile 
+[root@bigdata-22 docker]# docker build -t=10.0.3.57:5000/ntcidpdk-v2
+"docker build" requires exactly 1 argument.
+See 'docker build --help'.
+
+Usage:  docker build [OPTIONS] PATH | URL | - [flags]
+
+Build an image from a Dockerfile
+[root@bigdata-22 docker]# docker build -t=10.0.3.57:5000/ntcidpdk-v2 .
+Sending build context to Docker daemon  9.216kB
+Step 1/16 : FROM 10.0.3.6:5000/library/ntcicap-base:v2
+Get https://10.0.3.6:5000/v2/: dial tcp 10.0.3.6:5000: getsockopt: connection refused
+[root@bigdata-22 docker]# vim Dockerfile 
+[root@bigdata-22 docker]# docker build -t=10.0.3.57:5000/ntcidpdk-v2 .
+Sending build context to Docker daemon  9.216kB
+Step 1/16 : FROM 10.0.3.57:5000/ntcidpdk-v1-temp
+ ---> 05d2ffd3cf07
+Step 2/16 : MAINTAINER shudao
+ ---> Running in b1cf22366a34
+Removing intermediate container b1cf22366a34
+ ---> c89704003c40
+Step 3/16 : ENV ntcicap-v1 1.1
+ ---> Running in bf82ea29f407
+Removing intermediate container bf82ea29f407
+ ---> a6ff6838767d
+Step 4/16 : ENV TIME_ZONE Asia/Shanghai
+ ---> Running in 6a32ec53b7bf
+Removing intermediate container 6a32ec53b7bf
+ ---> cb71eb4f90c3
+Step 5/16 : ENV RTE_SDK=/home/dpdk-stable-17.05.1
+ ---> Running in 995d479f215b
+Removing intermediate container 995d479f215b
+ ---> b4540c851ba4
+Step 6/16 : ENV RTE_TARGET=x86_64-native-linuxapp-gcc
+ ---> Running in 32f8d7613c87
+Removing intermediate container 32f8d7613c87
+ ---> cd92a9af6795
+Step 7/16 : ENV RTE_ARCH=i686,x86_64,ppc_64
+ ---> Running in daa41f5c0113
+Removing intermediate container daa41f5c0113
+ ---> f5572821f3ca
+Step 8/16 : ENV PATH $RTE_SDK:$PATH
+ ---> Running in 288cd2f3f89e
+Removing intermediate container 288cd2f3f89e
+ ---> 19014c05f593
+Step 9/16 : ENV PATH $RTE_TARGET:$PATH
+ ---> Running in fe4a6a1eda1e
+Removing intermediate container fe4a6a1eda1e
+ ---> 607cbdb25d10
+Step 10/16 : ENV PATH $RTE_ARCH:$PATH
+ ---> Running in 6e8695adb5c0
+Removing intermediate container 6e8695adb5c0
+ ---> 39cffd9b7685
+Step 11/16 : RUN echo "${TIME_ZONE}" > /etc/timezone && cp /usr/share/zoneinfo/${TIME_ZONE} /etc/localtime
+ ---> Running in b20863a026fd
+Removing intermediate container b20863a026fd
+ ---> 1509662f8210
+Step 12/16 : COPY entrypoint.sh /usr/local/bin/
+ ---> 24e4a310feea
+Step 13/16 : COPY ConfigAndStart.sh /usr/local/bin/
+ ---> 6c3339a84209
+Step 14/16 : ENTRYPOINT ["entrypoint.sh"]
+ ---> Running in a1dbb2fcf5a7
+Removing intermediate container a1dbb2fcf5a7
+ ---> 120d2633ce4d
+Step 15/16 : CMD ["usr/sbin/init","-D"]
+ ---> Running in eefda23e5471
+Removing intermediate container eefda23e5471
+ ---> 7d96a6a0efff
+Step 16/16 : CMD ["ConfigAndStart.sh start"]
+ ---> Running in afde4f3d8069
+Removing intermediate container afde4f3d8069
+ ---> f6eea18ff2bb
+Successfully built f6eea18ff2bb
+Successfully tagged 10.0.3.57:5000/ntcidpdk-v2:latest
+[root@bigdata-22 docker]# docker run -d --privileged -v /sys/bus/pci/devices:/sys/bus/pci/devices -v /sys/kernel/mm/hugepages:/sys/kernel/mm/hugepages -v /sys/devices/system/node:/sys/devices/system/node -v /dev:/dev --name ntcicap-v3 --hostname ntcicap-v3 10.0.3.57:5000/ntcidpdk-v2
+docker: Error response from daemon: Conflict. The container name "/ntcicap-v3" is already in use by container "b9fe726bf8e2c2424b018ef419f4bda51b307b7532907de175b1a53641bcb09f". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+[root@bigdata-22 docker]# docker run -d --privileged -v /sys/bus/pci/devices:/sys/bus/pci/devices -v /sys/kernel/mm/hugepages:/sys/kernel/mm/hugepages -v /sys/devices/system/node:/sys/devices/system/node -v /dev:/dev --name ntcicap-v3 --hostname ntcicap-v3 10.0.3.57:5000/ntcidpdk-v2^C
+[root@bigdata-22 docker]# docker rm -f ntcicap-v3
+ntcicap-v3
+[root@bigdata-22 docker]# docker run -d --privileged -v /sys/bus/pci/devices:/sys/bus/pci/devices -v /sys/kernel/mm/hugepages:/sys/kernel/mm/hugepages -v /sys/devices/system/node:/sys/devices/system/node -v /dev:/dev --name ntcidpdk-v3 --hostname ntcidpdk-v3 10.0.3.57:5000/ntcidpdk-v2
+9bc63d773b177353cde669fc1fe52a66263ab17abed7fbb1bd59d65998073d3c
+docker: Error response from daemon: OCI runtime create failed: container_linux.go:348: starting container process caused "exec: \"entrypoint.sh\": executable file not found in $PATH": unknown.
+[root@bigdata-22 docker]# ll
+total 16
+-rwxr-xr-x. 1 root root 4913 May 30 21:59 ConfigAndStart.sh
+-rw-r--r--. 1 root root  560 May 30 22:02 Dockerfile
+-rw-r--r--. 1 root root   22 Aug 22  2018 entrypoint.sh
+[root@bigdata-22 docker]# chmod +x entrypoint.sh 
+[root@bigdata-22 docker]# ll
+total 16
+-rwxr-xr-x. 1 root root 4913 May 30 21:59 ConfigAndStart.sh
+-rw-r--r--. 1 root root  560 May 30 22:02 Dockerfile
+-rwxr-xr-x. 1 root root   22 Aug 22  2018 entrypoint.sh
+[root@bigdata-22 docker]# docker build -t=10.0.3.57:5000/ntcidpdk-v2 .
+Sending build context to Docker daemon  9.216kB
+Step 1/16 : FROM 10.0.3.57:5000/ntcidpdk-v1-temp
+ ---> 05d2ffd3cf07
+Step 2/16 : MAINTAINER shudao
+ ---> Using cache
+ ---> c89704003c40
+Step 3/16 : ENV ntcicap-v1 1.1
+ ---> Using cache
+ ---> a6ff6838767d
+Step 4/16 : ENV TIME_ZONE Asia/Shanghai
+ ---> Using cache
+ ---> cb71eb4f90c3
+Step 5/16 : ENV RTE_SDK=/home/dpdk-stable-17.05.1
+ ---> Using cache
+ ---> b4540c851ba4
+Step 6/16 : ENV RTE_TARGET=x86_64-native-linuxapp-gcc
+ ---> Using cache
+ ---> cd92a9af6795
+Step 7/16 : ENV RTE_ARCH=i686,x86_64,ppc_64
+ ---> Using cache
+ ---> f5572821f3ca
+Step 8/16 : ENV PATH $RTE_SDK:$PATH
+ ---> Using cache
+ ---> 19014c05f593
+Step 9/16 : ENV PATH $RTE_TARGET:$PATH
+ ---> Using cache
+ ---> 607cbdb25d10
+Step 10/16 : ENV PATH $RTE_ARCH:$PATH
+ ---> Using cache
+ ---> 39cffd9b7685
+Step 11/16 : RUN echo "${TIME_ZONE}" > /etc/timezone && cp /usr/share/zoneinfo/${TIME_ZONE} /etc/localtime
+ ---> Using cache
+ ---> 1509662f8210
+Step 12/16 : COPY entrypoint.sh /usr/local/bin/
+ ---> e50e28ae4e15
+Step 13/16 : COPY ConfigAndStart.sh /usr/local/bin/
+ ---> 0e483da26d03
+Step 14/16 : ENTRYPOINT ["entrypoint.sh"]
+ ---> Running in 3042208fe662
+Removing intermediate container 3042208fe662
+ ---> 2b323a824096
+Step 15/16 : CMD ["usr/sbin/init","-D"]
+ ---> Running in c72151f80f95
+Removing intermediate container c72151f80f95
+ ---> 117656a2f13b
+Step 16/16 : CMD ["ConfigAndStart.sh start"]
+ ---> Running in f24e87a2c699
+Removing intermediate container f24e87a2c699
+ ---> f4a1fd149150
+Successfully built f4a1fd149150
+Successfully tagged 10.0.3.57:5000/ntcidpdk-v2:latest
+[root@bigdata-22 docker]# docker rm -f ntcidpdk-v3
+ntcidpdk-v3
+[root@bigdata-22 docker]# docker run -d --privileged -v /sys/bus/pci/devices:/sys/bus/pci/devices -v /sys/kernel/mm/hugepages:/sys/kernel/mm/hugepages -v /sys/devices/system/node:/sys/devices/system/node -v /dev:/dev --name ntcidpdk-v3 --hostname ntcidpdk-v3 10.0.3.57:5000/ntcidpdk-v2
+fd6dcd642cd96e85df4d639ac1f7de82b6fe4a33236efe18e3b81f41fbd9dabf
+[root@bigdata-22 docker]# docker logs ntcidpdk-v3
+/usr/local/bin/entrypoint.sh: line 2: exec: ConfigAndStart.sh start: not found
+[root@bigdata-22 docker]# lspci|grep Eth^C
+[root@bigdata-22 docker]# docker ll
+docker: 'll' is not a docker command.
+See 'docker --help'
+[root@bigdata-22 docker]# ll
+total 16
+-rwxr-xr-x. 1 root root 4913 May 30 21:59 ConfigAndStart.sh
+-rw-r--r--. 1 root root  560 May 30 22:02 Dockerfile
+-rwxr-xr-x. 1 root root   22 Aug 22  2018 entrypoint.sh
+[root@bigdata-22 docker]# vim start.sh
+[root@bigdata-22 docker]# ll
+total 20
+-rwxr-xr-x. 1 root root 4913 May 30 21:59 ConfigAndStart.sh
+-rw-r--r--. 1 root root  560 May 30 22:02 Dockerfile
+-rwxr-xr-x. 1 root root   22 Aug 22  2018 entrypoint.sh
+-rw-r--r--. 1 root root   36 May 30 22:12 start.sh
+[root@bigdata-22 docker]# chmod +x start.sh 
+[root@bigdata-22 docker]# vim Dockerfile 
+[root@bigdata-22 docker]# ll
+total 20
+-rwxr-xr-x. 1 root root 4913 May 30 21:59 ConfigAndStart.sh
+-rw-r--r--. 1 root root  576 May 30 22:13 Dockerfile
+-rwxr-xr-x. 1 root root   22 Aug 22  2018 entrypoint.sh
+-rwxr-xr-x. 1 root root   36 May 30 22:12 start.sh
+[root@bigdata-22 docker]# docker build -t=10.0.3.57:5000/ntcidpdk-v2 .
+Sending build context to Docker daemon  10.24kB
+Step 1/17 : FROM 10.0.3.57:5000/ntcidpdk-v1-temp
+ ---> 05d2ffd3cf07
+Step 2/17 : MAINTAINER shudao
+ ---> Using cache
+ ---> c89704003c40
+Step 3/17 : ENV ntcicap-v1 1.1
+ ---> Using cache
+ ---> a6ff6838767d
+Step 4/17 : ENV TIME_ZONE Asia/Shanghai
+ ---> Using cache
+ ---> cb71eb4f90c3
+Step 5/17 : ENV RTE_SDK=/home/dpdk-stable-17.05.1
+ ---> Using cache
+ ---> b4540c851ba4
+Step 6/17 : ENV RTE_TARGET=x86_64-native-linuxapp-gcc
+ ---> Using cache
+ ---> cd92a9af6795
+Step 7/17 : ENV RTE_ARCH=i686,x86_64,ppc_64
+ ---> Using cache
+ ---> f5572821f3ca
+Step 8/17 : ENV PATH $RTE_SDK:$PATH
+ ---> Using cache
+ ---> 19014c05f593
+Step 9/17 : ENV PATH $RTE_TARGET:$PATH
+ ---> Using cache
+ ---> 607cbdb25d10
+Step 10/17 : ENV PATH $RTE_ARCH:$PATH
+ ---> Using cache
+ ---> 39cffd9b7685
+Step 11/17 : RUN echo "${TIME_ZONE}" > /etc/timezone && cp /usr/share/zoneinfo/${TIME_ZONE} /etc/localtime
+ ---> Using cache
+ ---> 1509662f8210
+Step 12/17 : COPY entrypoint.sh /usr/local/bin/
+ ---> Using cache
+ ---> e50e28ae4e15
+Step 13/17 : COPY ConfigAndStart.sh /usr/local/bin/
+ ---> Using cache
+ ---> 0e483da26d03
+Step 14/17 : COPY start.sh /usr/local/bin/
+ ---> ff1037e20d28
+Step 15/17 : ENTRYPOINT ["entrypoint.sh"]
+ ---> Running in 46d7489dc0de
+Removing intermediate container 46d7489dc0de
+ ---> 6cbd6a3fc86d
+Step 16/17 : CMD ["usr/sbin/init","-D"]
+ ---> Running in 145137c3e85a
+Removing intermediate container 145137c3e85a
+ ---> a45849575766
+Step 17/17 : CMD ["start.sh"]
+ ---> Running in be5c931cb4cc
+Removing intermediate container be5c931cb4cc
+ ---> 73044104c867
+Successfully built 73044104c867
+Successfully tagged 10.0.3.57:5000/ntcidpdk-v2:latest
+[root@bigdata-22 docker]# docker rm -f ntcidpdk-v3
+ntcidpdk-v3
+[root@bigdata-22 docker]# docker run -d --privileged -v /sys/bus/pci/devices:/sys/bus/pci/devices -v /sys/kernel/mm/hugepages:/sys/kernel/mm/hugepages -v /sys/devices/system/node:/sys/devices/system/node -v /dev:/dev --name ntcidpdk-v3 --hostname ntcidpdk-v3 10.0.3.57:5000/ntcidpdk-v2
+82d6b6101bcea473edce4e46f7cbbbdfb1f1d53564fe97bcba704a80a389981e
+[root@bigdata-22 docker]# docker ps
+CONTAINER ID        IMAGE                                   COMMAND                  CREATED             STATUS              PORTS                            NAMES
+ffd7482dc1cb        10.0.3.6:5000/library/ntcicap-base:v1   "/usr/bin/bash"          About an hour ago   Up 35 minutes                                        ntcidpdk-v1
+26ca5a88024b        10.0.3.6:5000/bigdata/jstorm:2.1.1_10   "entrypoint.sh jstor¡­"   9 months ago        Up 6 minutes        22/tcp                           test_supervisor_1
+c3f176e9247a        10.0.3.6:5000/bigdata/jstorm:2.1.1_10   "entrypoint.sh jstor¡­"   9 months ago        Up 6 minutes        22/tcp                           nimbus
+3bb32875de85        10.0.3.6:5000/bigdata/jstorm-ui:1       "entrypoint.sh jetty¡­"   9 months ago        Up 41 minutes       22/tcp, 0.0.0.0:8081->8080/tcp   jstorm-ui
+[root@bigdata-22 docker]# docker logs ntcidpdk-v3
+Start...
+Removing currently reserved hugepages
+Unmounting /mnt/huge and removing directory
+Reserving hugepages
+Creating /mnt/huge and mounting as hugetlbfs
+mkdir: cannot create directory '/mnt/huge': Invalid argument
+mount: mount point /mnt/huge does not exist
+Set huge page success
+Unloading any existing DPDK UIO module
+Loading DPDK UIO module
+Bind 0000:81:00.1 to IGB UIO driver... 
+OK
+Bind 0000:81:00.1 to IGB UIO driver success 
+/home/ntcidpdk//start.sh: line 8: ./build/ntcicap: No such file or directory
+[root@bigdata-22 docker]# docker exec -it ntcidpdk-v1 /bin/bash
+[root@ntcicap-v1 /]# exit
+exit
+[root@bigdata-22 docker]# vim ConfigAndStart.sh 
+[root@bigdata-22 docker]# docker rm -f ntcidpdk-v3
+ntcidpdk-v3
+[root@bigdata-22 docker]# docker build -t=10.0.3.57:5000/ntcidpdk-v2 .
+Sending build context to Docker daemon  10.24kB
+Step 1/17 : FROM 10.0.3.57:5000/ntcidpdk-v1-temp
+ ---> 05d2ffd3cf07
+Step 2/17 : MAINTAINER shudao
+ ---> Using cache
+ ---> c89704003c40
+Step 3/17 : ENV ntcicap-v1 1.1
+ ---> Using cache
+ ---> a6ff6838767d
+Step 4/17 : ENV TIME_ZONE Asia/Shanghai
+ ---> Using cache
+ ---> cb71eb4f90c3
+Step 5/17 : ENV RTE_SDK=/home/dpdk-stable-17.05.1
+ ---> Using cache
+ ---> b4540c851ba4
+Step 6/17 : ENV RTE_TARGET=x86_64-native-linuxapp-gcc
+ ---> Using cache
+ ---> cd92a9af6795
+Step 7/17 : ENV RTE_ARCH=i686,x86_64,ppc_64
+ ---> Using cache
+ ---> f5572821f3ca
+Step 8/17 : ENV PATH $RTE_SDK:$PATH
+ ---> Using cache
+ ---> 19014c05f593
+Step 9/17 : ENV PATH $RTE_TARGET:$PATH
+ ---> Using cache
+ ---> 607cbdb25d10
+Step 10/17 : ENV PATH $RTE_ARCH:$PATH
+ ---> Using cache
+ ---> 39cffd9b7685
+Step 11/17 : RUN echo "${TIME_ZONE}" > /etc/timezone && cp /usr/share/zoneinfo/${TIME_ZONE} /etc/localtime
+ ---> Using cache
+ ---> 1509662f8210
+Step 12/17 : COPY entrypoint.sh /usr/local/bin/
+ ---> Using cache
+ ---> e50e28ae4e15
+Step 13/17 : COPY ConfigAndStart.sh /usr/local/bin/
+ ---> d68680f6dbba
+Step 14/17 : COPY start.sh /usr/local/bin/
+ ---> 1147d7862836
+Step 15/17 : ENTRYPOINT ["entrypoint.sh"]
+ ---> Running in aec15382bb52
+Removing intermediate container aec15382bb52
+ ---> adf09ec057b1
+Step 16/17 : CMD ["usr/sbin/init","-D"]
+ ---> Running in 9f6d2901b9d6
+Removing intermediate container 9f6d2901b9d6
+ ---> 5fad436cca34
+Step 17/17 : CMD ["start.sh"]
+ ---> Running in 42810c1f761f
+Removing intermediate container 42810c1f761f
+ ---> 0996d6596645
+Successfully built 0996d6596645
+Successfully tagged 10.0.3.57:5000/ntcidpdk-v2:latest
+[root@bigdata-22 docker]# docker run -d --privileged -v /sys/bus/pci/devices:/sys/bus/pci/devices -v /sys/kernel/mm/hugepages:/sys/kernel/mm/hugepages -v /sys/devices/system/node:/sys/devices/system/node -v /dev:/dev --name ntcidpdk-v3 --hostname ntcidpdk-v3 10.0.3.57:5000/ntcidpdk-v2
+4e6a6817c1c90874ed46c59d7b83ad64d16641163ae8a53c92d335c69f44d60c
+[root@bigdata-22 docker]# docker ps
+CONTAINER ID        IMAGE                                   COMMAND                  CREATED             STATUS              PORTS                            NAMES
+ffd7482dc1cb        10.0.3.6:5000/library/ntcicap-base:v1   "/usr/bin/bash"          About an hour ago   Up 37 minutes                                        ntcidpdk-v1
+26ca5a88024b        10.0.3.6:5000/bigdata/jstorm:2.1.1_10   "entrypoint.sh jstor¡­"   9 months ago        Up 57 seconds       22/tcp                           test_supervisor_1
+c3f176e9247a        10.0.3.6:5000/bigdata/jstorm:2.1.1_10   "entrypoint.sh jstor¡­"   9 months ago        Up 41 seconds       22/tcp                           nimbus
+3bb32875de85        10.0.3.6:5000/bigdata/jstorm-ui:1       "entrypoint.sh jetty¡­"   9 months ago        Up 43 minutes       22/tcp, 0.0.0.0:8081->8080/tcp   jstorm-ui
+[root@bigdata-22 docker]# docker logs ntcidpdk-v3
+Start...
+Removing currently reserved hugepages
+Unmounting /mnt/huge and removing directory
+Reserving hugepages
+Creating /mnt/huge and mounting as hugetlbfs
+mkdir: cannot create directory '/mnt/huge': Invalid argument
+mount: mount point /mnt/huge does not exist
+Set huge page success
+Unloading any existing DPDK UIO module
+Loading DPDK UIO module
+Bind 0000:81:00.1 to IGB UIO driver... 
+OK
+Bind 0000:81:00.1 to IGB UIO driver success 
+/home/ntcidpdk/start.sh: line 8: ./build/ntcicap: No such file or directory
+[root@bigdata-22 docker]# docker exec -it ntcicap-v1 /bin/bash
+Error: No such container: ntcicap-v1
+[root@bigdata-22 docker]# docker exec -it ntcidpdk-v1 /bin/bash
+[root@ntcicap-v1 /]# cd /home/ntcidpdk/
+[root@ntcicap-v1 ntcidpdk]# ll
+total 1512
+drwxr-xr-x.  4 root root    4096 May 30 13:26 build
+-rwxrwxrwx.  1 root root    4913 May 30 13:51 ConfigAndStart.sh
+drwxrwxrwx.  3 root root    4096 May 30 02:27 include
+drwxrwxrwx.  2 root root    4096 May 30 02:27 lib
+-rwxrwxrwx.  1 root root    1495 May 30 02:27 Makefile
+drwxrwxrwx.  2 root root    4096 May 30 02:27 media
+-rwxrwxrwx.  1 root root      51 May 30 02:27 mymake
+-rw-r--r--.  1 root root 1493542 May 30 13:48 ntcicap.log
+-rwxrwxrwx.  1 root root     782 May 30 13:50 ntciflow.conf
+-rwxrwxrwx.  1 root root    6872 May 30 02:27 README.md
+drwxrwxrwx. 13 root root    4096 May 30 02:27 src
+-rwxrwxrwx.  1 root root     158 May 30 13:26 start.sh
+[root@ntcicap-v1 ntcidpdk]# vim start.sh 
+[root@ntcicap-v1 ntcidpdk]# exit
+exit
+[root@bigdata-22 docker]# docker commit ntcidpdk-v1 10.0.3.57:5000/ntcidpdk-v1-temp^C
+[root@bigdata-22 docker]# vim Dockerfile 
+[root@bigdata-22 docker]# docker commit ntcidpdk-v1 10.0.3.57:5000/ntcidpdk-v1-temp
+sha256:3d6737de6f2d8bca0faed4140287f626b0bf641940f5572226e9820fd981d7fd
+[root@bigdata-22 docker]# docker build -t=10.0.3.57:5000/ntcidpdk-v2 .
+Sending build context to Docker daemon  10.24kB
+Step 1/17 : FROM 10.0.3.57:5000/ntcidpdk-v1-temp
+ ---> 3d6737de6f2d
+Step 2/17 : MAINTAINER shudao
+ ---> Running in 49ec89459396
+Removing intermediate container 49ec89459396
+ ---> 4de800188c9c
+Step 3/17 : ENV ntcicap-v1 1.1
+ ---> Running in b9d0b29ba1b6
+Removing intermediate container b9d0b29ba1b6
+ ---> 673139c4d10d
+Step 4/17 : ENV TIME_ZONE Asia/Shanghai
+ ---> Running in d24024eae327
+Removing intermediate container d24024eae327
+ ---> 11d60c924ced
+Step 5/17 : ENV RTE_SDK=/home/dpdk-stable-17.05.1
+ ---> Running in 7ecfca1985f0
+Removing intermediate container 7ecfca1985f0
+ ---> f1ecd91af7b5
+Step 6/17 : ENV RTE_TARGET=x86_64-native-linuxapp-gcc
+ ---> Running in 489b86f31834
+Removing intermediate container 489b86f31834
+ ---> 0d6a99a3fde0
+Step 7/17 : ENV RTE_ARCH=i686,x86_64,ppc_64
+ ---> Running in ec83a88299dd
+Removing intermediate container ec83a88299dd
+ ---> 805e1170ffc1
+Step 8/17 : ENV PATH $RTE_SDK:$PATH
+ ---> Running in 9e7b3927ea7d
+Removing intermediate container 9e7b3927ea7d
+ ---> bc89f3874d7f
+Step 9/17 : ENV PATH $RTE_TARGET:$PATH
+ ---> Running in 961f0f2419dc
+Removing intermediate container 961f0f2419dc
+ ---> 2adedfb77e4b
+Step 10/17 : ENV PATH $RTE_ARCH:$PATH
+ ---> Running in 9a4323d5d2ad
+Removing intermediate container 9a4323d5d2ad
+ ---> 2e01b3d769e3
+Step 11/17 : RUN echo "${TIME_ZONE}" > /etc/timezone && cp /usr/share/zoneinfo/${TIME_ZONE} /etc/localtime
+ ---> Running in 463369419ca1
+Removing intermediate container 463369419ca1
+ ---> b58478faa43d
+Step 12/17 : COPY entrypoint.sh /usr/local/bin/
+ ---> ce1b66401503
+Step 13/17 : COPY ConfigAndStart.sh /usr/local/bin/
+ ---> 168de271d10e
+Step 14/17 : COPY start.sh /usr/local/bin/
+ ---> c83179f9a278
+Step 15/17 : ENTRYPOINT ["entrypoint.sh"]
+ ---> Running in c26bb3366b91
+Removing intermediate container c26bb3366b91
+ ---> c9ce4a7947a4
+Step 16/17 : CMD ["usr/sbin/init","-D"]
+ ---> Running in 03f1869d514a
+Removing intermediate container 03f1869d514a
+ ---> 3299f067b749
+Step 17/17 : CMD ["start.sh"]
+ ---> Running in dd706e3d0eae
+Removing intermediate container dd706e3d0eae
+ ---> 45bc7a32d7cb
+Successfully built 45bc7a32d7cb
+Successfully tagged 10.0.3.57:5000/ntcidpdk-v2:latest
+[root@bigdata-22 docker]# docker rm -f ntcidpdk-v3
+ntcidpdk-v3
+[root@bigdata-22 docker]# docker run -d --privileged -v /sys/bus/pci/devices:/sys/bus/pci/devices -v /sys/kernel/mm/hugepages:/sys/kernel/mm/hugepages -v /sys/devices/system/node:/sys/devices/system/node -v /dev:/dev --name ntcidpdk-v3 --hostname ntcidpdk-v3 10.0.3.57:5000/ntcidpdk-v2
+07c938054dfd8077470b2caa9052189a2fcdd0cee18078dbf5f4926abbe1e9c0
+[root@bigdata-22 docker]# docker ps
+CONTAINER ID        IMAGE                                   COMMAND                  CREATED             STATUS              PORTS                            NAMES
+07c938054dfd        10.0.3.57:5000/ntcidpdk-v2              "entrypoint.sh start¡­"   3 seconds ago       Up 2 seconds                                         ntcidpdk-v3
+ffd7482dc1cb        10.0.3.6:5000/library/ntcicap-base:v1   "/usr/bin/bash"          About an hour ago   Up 42 minutes                                        ntcidpdk-v1
+26ca5a88024b        10.0.3.6:5000/bigdata/jstorm:2.1.1_10   "entrypoint.sh jstor¡­"   9 months ago        Up 5 minutes        22/tcp                           test_supervisor_1
+c3f176e9247a        10.0.3.6:5000/bigdata/jstorm:2.1.1_10   "entrypoint.sh jstor¡­"   9 months ago        Up 5 minutes        22/tcp                           nimbus
+3bb32875de85        10.0.3.6:5000/bigdata/jstorm-ui:1       "entrypoint.sh jetty¡­"   9 months ago        Up About an hour    22/tcp, 0.0.0.0:8081->8080/tcp   jstorm-ui
+[root@bigdata-22 docker]# docker ps
+CONTAINER ID        IMAGE                                   COMMAND                  CREATED             STATUS              PORTS                            NAMES
+ffd7482dc1cb        10.0.3.6:5000/library/ntcicap-base:v1   "/usr/bin/bash"          About an hour ago   Up 42 minutes                                        ntcidpdk-v1
+26ca5a88024b        10.0.3.6:5000/bigdata/jstorm:2.1.1_10   "entrypoint.sh jstor¡­"   9 months ago        Up 6 minutes        22/tcp                           test_supervisor_1
+c3f176e9247a        10.0.3.6:5000/bigdata/jstorm:2.1.1_10   "entrypoint.sh jstor¡­"   9 months ago        Up 5 minutes        22/tcp                           nimbus
+3bb32875de85        10.0.3.6:5000/bigdata/jstorm-ui:1       "entrypoint.sh jetty¡­"   9 months ago        Up About an hour    22/tcp, 0.0.0.0:8081->8080/tcp   jstorm-ui
+[root@bigdata-22 docker]# docker logs ntcidpdk-v3
+Start...
+Removing currently reserved hugepages
+Unmounting /mnt/huge and removing directory
+Reserving hugepages
+Creating /mnt/huge and mounting as hugetlbfs
+mkdir: cannot create directory '/mnt/huge': Invalid argument
+mount: mount point /mnt/huge does not exist
+Set huge page success
+Unloading any existing DPDK UIO module
+Loading DPDK UIO module
+Bind 0000:81:00.1 to IGB UIO driver... 
+OK
+Bind 0000:81:00.1 to IGB UIO driver success 
+EAL: Detected 8 lcore(s)
+EAL: Probing VFIO support...
+EAL: PCI device 0000:81:00.0 on NUMA socket 1
+EAL:   probe driver: 8086:10fb net_ixgbe
+EAL: PCI device 0000:81:00.1 on NUMA socket 1
+EAL:   probe driver: 8086:10fb net_ixgbe
+Config open failed
+[NTCICAPINFO] kafka_topic : (null)
+[NTCICAPINFO] kafka_brokers : (null)
+[NTCICAPINFO] kafka_partitions : 1
+[NTCICAPINFO] portmask : 1
+[NTCICAPINFO] per_port_c_cores : 1
+[NTCICAPINFO] num_w_cores : 1
+[NTCICAPINFO] num_e_cores : 1
+[NTCICAPINFO] inactive_time_out : 15
+[NTCICAPINFO] active_time_out : 30
+broker list is empty.=====RTE_MBUF_DEFAULT_BUF_SIZE: 2176 ======[root@bigdata-22 docker]# 
