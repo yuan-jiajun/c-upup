@@ -6,3 +6,6 @@
 #define C_TEST_TEST_H
 
 #endif //C_TEST_TEST_H
+
+#include <stdio.h>
+#include <stdlib.h>
