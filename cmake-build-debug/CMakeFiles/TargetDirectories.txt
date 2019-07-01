@@ -1,3 +1,0 @@
-/cygdrive/f/workspace/c/c_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/f/workspace/c/c_test/cmake-build-debug/CMakeFiles/c_test.dir
-/cygdrive/f/workspace/c/c_test/cmake-build-debug/CMakeFiles/edit_cache.dir
