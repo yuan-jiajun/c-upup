@@ -12,6 +12,7 @@ set(CMAKE_C_STANDARD 11)
 # include_directories(${DPDK_LIB}\\librte_mbuf)
 # include_directories(${DPDK_LIB}\\librte_timer)
 
+include_directories(src/file.c)
 
 add_executable(c_test
         src/develop.c)
