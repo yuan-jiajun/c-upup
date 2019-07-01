@@ -4,4 +4,7 @@ project(c_test)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(c_test
-         fortest.c)
+        vcs.c
+        length.c
+        develop.c
+        test.c)
