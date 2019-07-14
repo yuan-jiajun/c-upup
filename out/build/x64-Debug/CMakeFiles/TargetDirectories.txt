@@ -1,3 +1,0 @@
-F:/workspace/c/c_test/out/build/x64-Debug/CMakeFiles/c_test.dir
-F:/workspace/c/c_test/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-F:/workspace/c/c_test/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
