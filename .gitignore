@@ -1,6 +1,6 @@
 .git 
 .vs
-out/*
+out/
 .idea
 cmake-build-debug
 CMakeSettings.json
