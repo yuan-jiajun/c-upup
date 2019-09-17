@@ -16,6 +16,6 @@ int main() {
     int  a = 2;
     int *p = &a;
     printf("create a branch named develop2.\n");
-    SAFE_RELEASE(q);
+    SAFE_RELEASE(p);
 //    SAFE_RELEASE(q);
 }
