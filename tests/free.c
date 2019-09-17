@@ -14,7 +14,8 @@ void SAFE_RELEASE(void *p) {
 
 int main() {
     int  a = 2;
-    int *p = &a;
+    int *p = malloc(sizeof(int));
+
     printf("create a branch named develop2.\n");
     SAFE_RELEASE(p);
 //    SAFE_RELEASE(q);
