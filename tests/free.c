@@ -13,8 +13,8 @@ void SAFE_RELEASE(void *p) {
 }
 
 int main() {
-    char *q = "q";
+    char *q = 'q';
     printf("create a branch named develop2.\n");
     SAFE_RELEASE(q);
-    SAFE_RELEASE(q);
+//    SAFE_RELEASE(q);
 }
