@@ -1,4 +1,5 @@
 #!/bin/sh
+git stash
 git pull
 #sleep(2)
 rm -rf core.*
