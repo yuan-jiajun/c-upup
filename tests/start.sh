@@ -1,9 +1,8 @@
 #!/bin/sh
-rm -rf core.*
-#rm -rf core.*
-ulimit -c unlimited
 git pull
-sleep(2)
+#sleep(2)
+rm -rf core.*
+ulimit -c unlimited
 gcc free.c -o free.out
 ./free.out
 
