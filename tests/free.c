@@ -13,10 +13,12 @@ void SAFE_RELEASE(void *p) {
 }
 
 int main() {
-    int  a = 2;
+    int a = 2;
     int *p = malloc(sizeof(int));
+    int *m = NULL;
 
     printf("create a branch named develop2.\n");
-    SAFE_RELEASE(p);
-//    SAFE_RELEASE(q);
+//    SAFE_RELEASE(p);
+    m = p;
+    SAFE_RELEASE(m);
 }
