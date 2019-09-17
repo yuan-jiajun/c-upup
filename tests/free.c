@@ -21,4 +21,5 @@ int main() {
 //    SAFE_RELEASE(p);
     m = p;
     SAFE_RELEASE(m);
+    SAFE_RELEASE(m);
 }
