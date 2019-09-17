@@ -4,4 +4,6 @@ project(c_test)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(c_test
-        src/develop.c)
+#        src/develop.c
+        src/free.c
+        tests/free.c)
