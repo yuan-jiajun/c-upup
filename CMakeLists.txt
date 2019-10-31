@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(c_test
 #        src/develop.c
         src/free.c
-        tests/free.c)
+        tests/free_function_test/free.c tests/pointarray_test/pointarray_test.c)
