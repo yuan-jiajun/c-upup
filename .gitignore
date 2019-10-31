@@ -4,4 +4,4 @@ out/
 .idea
 cmake-build-debug
 CMakeSettings.json
-#gitignore-test.txt
+gitignore-test.txt
