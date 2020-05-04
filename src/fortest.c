@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 int main(){
-    for (int k = 0; k < 0; ++k) {
+    for (int k = 0; k < 1; ++k) {
        printf("hello");
     }
 }
