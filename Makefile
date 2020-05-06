@@ -1,7 +1,7 @@
 include ./include
 
 # binary name
-APP = c_test
+APP = CTest
 
 CFLAGS += -O3 -g $(WERROR_FLAGS) -w -std=c99 -U__STRICT_ANSI__
 
