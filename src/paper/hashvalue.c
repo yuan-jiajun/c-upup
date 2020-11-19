@@ -1,7 +1,7 @@
 /**
- * @Description: 
+ * @Description:
  * @Date: 2020/5/4 17:03
- * @Version: 
+ * @Version:
  * @Created by yuanjiajun
  */
 
@@ -56,7 +56,7 @@ int main() {
         for (int srcPort = 1; srcPort < 65535; srcPort++) {
             for (int dstPort = 1; dstPort < 65535; dstPort++) {
                 for (int srcIp = 16777216; srcIp < 0x7fffffff; srcIp++) {
-                    for (int dstIp = 16777216; dstIp < 0x7fffffff; dstIp++) {// 1 0000 0000 0000 0000 0000 0000的十进制为16777216
+                    for (int dstIp = 16777216; dstIp < 0x7fffffff; dstIp++) {// 1 0000 0000 0000 0000 0000 0000锟斤拷十锟斤拷锟斤拷为16777216
                         flowKey.prot = prot;
                         flowKey.sport = srcPort;
                         flowKey.dport = dstPort;
@@ -65,11 +65,11 @@ int main() {
                         hashCode(&flowKey);
 
 //                        if (dstIp % 8388608 == 0) {// 1000 0000 0000 0000 0000 8388608
-                            printf("prot    = %d\t", prot);
-                            printf("srcPort = %d\t", srcPort);
-                            printf("dstPort = %d\t", dstPort);
-                            printf("srcIp   = %d\t", srcIp);
-                            printf("dstIp   = %d\n", dstIp);
+                        printf("prot    = %d\t", prot);
+                        printf("srcPort = %d\t", srcPort);
+                        printf("dstPort = %d\t", dstPort);
+                        printf("srcIp   = %d\t", srcIp);
+                        printf("dstIp   = %d\n", dstIp);
 //                        }
                     }
                 }

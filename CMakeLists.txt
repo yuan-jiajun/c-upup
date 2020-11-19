@@ -1,9 +1,8 @@
 cmake_minimum_required(VERSION 3.13)
-project(CTest)
+project(cTest)
 
 set(CMAKE_CXX_STANDARD 14)
 
-#ÏëÒªÔËĞĞË­¾ÍÔÚÕâ¸öÎÄ¼şÖĞÌí¼Ó£¬ºÍMakefileÃ»¹ØÏµ
-add_executable(CTest
-         src/5suo/malloc.c)
-
+#æƒ³è¦è¿è¡Œè°å°±åœ¨è¿™ä¸ªæ–‡ä»¶ä¸­æ·»åŠ ï¼Œå’ŒMakefileæ²¡å…³ç³»
+add_executable(cTest
+        src/tests/test.c)
