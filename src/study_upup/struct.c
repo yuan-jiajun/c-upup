@@ -1,7 +1,3 @@
-//
-// Created by yuanjiajun on 2019/4/30.
-//
-
 # include <stdio.h>
 # include <stdlib.h>
 

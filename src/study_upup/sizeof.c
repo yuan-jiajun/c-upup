@@ -1,8 +1,3 @@
-//
-// Created by yuanjiajun on 2020/3/8.
-//
-
-
 #include <stdio.h>
 
 struct packet_bucket {
