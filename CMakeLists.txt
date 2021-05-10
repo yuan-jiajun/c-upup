@@ -4,6 +4,6 @@ project(c-upup)
 set(CMAKE_CXX_STANDARD 14)
 
 #想要运行谁就在这个文件中添加，和Makefile没关系
+
 add_executable(c-upup
-        src/temp/test.c)
-#add_executable(little2big32 src/utils/little2big32.c)
+         src/ExpressionEvaluation/ExpressionEvaluation2.c)

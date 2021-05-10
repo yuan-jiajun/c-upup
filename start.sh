@@ -1,10 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 rm -rf core.*
 ulimit -c unlimited
-git stash
-git pull
-chmod +x start.sh
-gcc struct.c -o test
+#git stash
+#git pull
+#chmod +x start.sh
+dos2unix start.sh
+gcc $1 -o test
 ./test
-
-#user config
